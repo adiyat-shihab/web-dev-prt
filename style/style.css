@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+header {
+  background-color: #fff8f3;
+  height: 837px;
+}
+
+.logo {
+  margin-left: 224px;
+}
+.font-navigation {
+  font-size: 45px;
+  color: #181818;
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  cursor: default;
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  color: #fd6e0a;
+}
+.info-container {
+  display: flex;
+  align-items: center;
+  margin-right: 230px;
+}
+.list-container {
+  display: flex;
+  list-style: none;
+}
+.btn-container button {
+  width: 150px;
+  height: 64px;
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  /* this is text decor */
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.list-container .li-item {
+  margin-right: 87px;
+  font-size: 20px;
+  color: #474747;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+/* .intro-container {
+  margin-left: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 38px;
+} */
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 93px;
+}
+.intro-text {
+  margin-left: 50px;
+}
+.button-container2 {
+  display: flex;
+}
+.button-container2 .button1 {
+  height: 64px;
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  /* this is text decor */
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: 47px;
+  width: 200px;
+}
+.button-container2 .button2 {
+  width: 160px;
+  height: 64px;
+  color: #fd6e0a;
+  background-color: #fff8f3;
+  font-family: Open Sans;
+  border: #fd6e0a 1px solid;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.button1 {
+  text-align: center;
+}
+.intro-img {
+  background-image: url(/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding-right: 250px;
+  margin-left: 250px;
+}
+.bc-img {
+  border: 2px slateblue solid;
+}
